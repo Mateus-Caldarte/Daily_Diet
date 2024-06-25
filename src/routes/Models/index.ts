@@ -2,6 +2,7 @@ import { NavigationProp } from "@react-navigation/native";
 
 export type DailyDietRootStack = {
   home: undefined;
+  newMeal: undefined;
 };
 
 export type PropsRootStack = DailyDietRootStack;

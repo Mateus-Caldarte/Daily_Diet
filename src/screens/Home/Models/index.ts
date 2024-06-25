@@ -4,4 +4,8 @@ import { PropsRootStack } from "@routes/Models";
 export interface HomeScreenProps
   extends NativeStackScreenProps<PropsRootStack, "home"> {}
 
-export interface HomeScreenViewProps {}
+export interface HomeScreenViewProps {
+  getCurrentTime: () => string;
+  getCurrentDateFormatted: () => string;
+  handleNewMeal: () => void;
+}
